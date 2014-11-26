@@ -1,0 +1,78 @@
+body {
+  background-color: #f5f5f5;
+  width: 900px;
+  margin: 0 auto;
+  padding: 0;
+}
+h4 {
+  color: #cd0000;
+  font-size: 42px;
+  letter-spacing: -2px;
+}
+
+
+#list {
+  font-size: 22px;
+  padding: 0 !important;
+  font-family: courier, monospace;
+  border: 1px solid #dedede;
+}
+
+#list li {
+  list-style: none;
+  border-bottom: 1px dotted #ccc;
+  text-indent: 5px;
+  height: auto;
+  text-transform: capitalize;
+}
+#list li:hover {
+  background-color: #f0f0f0;
+  -webkit-transition: all 0.2s;
+  -moz-transition:    all 0.2s;
+  -ms-transition:     all 0.2s;
+  -o-transition:      all 0.2s;
+}
+
+.box #list{
+  position:relative;
+}
+
+
+.box {
+  width:60%;  
+  background:#FFF;
+  float:left;
+}
+
+
+.effect
+{
+  position: relative;
+}
+.effect:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "fff";
+  bottom: 15px;
+  right: 10px;
+  left: auto;
+  width: 50%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+
+
+#newListItemForm {
+  position: relative;
+  width: 30%;
+  float: right;
+}
